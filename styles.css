@@ -1,0 +1,25 @@
+body {
+    background-color: #2C3333;
+    font-family: 'Ubuntu', sans-serif;   
+    color: #FEFBF6; 
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 500;    
+}
+
+.name {
+    color: #E7F6F2;
+}
+
+.ced {
+    color: #A5C9CA;
+}
