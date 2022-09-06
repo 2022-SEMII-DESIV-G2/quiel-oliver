@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222831; 
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 18px; 
+    
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-card {
+    width: 350px;
+    height: 340px;
+    background-color: #EEEEEE;
+    padding: 40px 50px 20px;
+    border-radius: 15px;
+    border-top: 0.6rem outset;
+    border-color: #423832;
+    box-shadow: 0 10px 2rem rgb(74, 75, 78);
+    transition: 1.1s;
+}
+
+.content-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.1ms ease-in 0.9s, opacity 0.1s ease-in-out;
+}
+
+.profile-card:hover .content-container {
+    visibility: visible;
+    opacity: 100;
+   
+}
+
+.profile-card:hover {
+    width: 650px;
+    height: 250px;
+}
+
+.me-img {
+    aspect-ratio: 1/1;
+    float: left;
+    width: 100%;
+    margin-right: 30px;
+    transition: 1s;
+}
+
+.profile-card:hover .me-img {
+    width: 30%;
+}
+
+.hvme {
+    margin-top: 80px;
+    color: #fff;
+}
