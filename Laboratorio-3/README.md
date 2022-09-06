@@ -16,5 +16,5 @@ https://github.com/erickagrazal
 - Un `<p>` con un `<img>` que tenga una imagen, una relación de aspecto 1:1 y un texto alternativo que mencione algo que represente a la imagen.
 
 ## Resultado
-![Imagen #1](https://imgur.com/gD26yd8)
-![Imagen #2](https://imgur.com/5V0USRU)
+![Imagen #1](https://i.imgur.com/gD26yd8.jpg)
+![Imagen #2](https://i.imgur.com/5V0USRU.png)
