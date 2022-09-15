@@ -1,0 +1,175 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #131313;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: green;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+nav {
+    border-bottom: 1px solid white;
+    width: 10%;
+}
+
+.nav-bar {
+    margin-left: 20px;
+}
+
+.nav-bar ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-items {
+    display: inline-block;
+}
+
+.nav-items a::after {
+    display: inline-block;
+    color: green;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.flex-container {
+    font-weight: 800;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.carbrand-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 350px;
+    background-color: #393E46;
+    border-radius: 20px;
+}
+
+.carbrand-card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(10%);
+    transition: 0.5s;
+}
+
+.carbrand-card :hover .carbrand-card-flex {
+    transform: translateY(-10%);
+}
+
+
+.img-container {
+    padding: 5px;        
+}
+
+.brand-logo {
+    object-fit: contain;
+    width: 250px;
+    height: 100px;
+}
+
+.brandname-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0%);
+    transition: 0.5s;
+}
+
+.btn-container a {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: 4px;
+    /* margin-top: 10px; */
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #111;
+    transform: translateY(0px);
+    transition: 0.5s;
+    margin-top: 0;
+    opacity: 0;   
+    transition-delay: 0.5s;
+}
+
+.carbrand-card :hover .btn-container a {
+    opacity: 1;
+    
+    transform: translateY(30px);
+    transition-delay: 0.60s;
+}
+
+.favfood-card {
+    display: flex;
+    width: 420px;
+    height: 150px;
+    background-color: rgb(57,62,70);
+    border-radius: 20px;
+}
+
+.favfood-card-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 420px;
+}
+
+.favfood-img {
+    object-fit: inherit;
+    width: 180px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+}
+
+.foodname-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 150px;
+}

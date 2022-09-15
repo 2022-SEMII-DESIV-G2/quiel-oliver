@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">        
+        <ol>          
+            <li class="nav-items">
+                <a href="parte2.html">Parte 2</a>
+            </li>
+            <li class="nav-items">
+                <a href="parte1.html" target="_blank">Parte 1</a>                
+            </li>
+        </ol>
+    </nav>
+    <div class="main-container-flex">
+        <div>
+            <div class="img-container">
+                <img src="image/logdance.gif" alt="" style="width: 75%;">
+            </div>
+            <div>
+                <form action="" class="form-flex" onsubmit="console.log('Email: ' + email.value  + ' ' + 'Password: '+ password.value);return false">
+                    <p>Email</p>
+                    <input class="form-field" id="email" type="email">
+                    <p>Password</p>
+                    <input class="form-field" id="password" type="password" name="" required>
+                    <input class="btn" type="submit" value="Log in">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
