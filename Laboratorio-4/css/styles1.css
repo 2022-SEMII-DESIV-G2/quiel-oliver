@@ -1,0 +1,135 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #F2F2F2, #8758FF, #5CB8E4, #181818);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+a:active {
+    color: green;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+nav {
+    border-bottom: 1px solid white;
+    width: 10%;
+}
+
+.nav-bar {
+    margin-left: 20px;
+}
+
+.nav-bar ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-items {
+    display: inline-block;
+}
+
+.nav-items a::after {
+    display: inline-block;
+    color: green;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.main-container-flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.btn {
+    padding: 5px 15px;
+    background: linear-gradient(-45deg, #F2F2F2, #8758FF, #5CB8E4, #181818);
+    animation: gradient 15s ease infinite;
+    background-size: 1000% 1000%;
+    border: 0;
+    border-radius: 4px;
+    font-size: .8em;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.btn:hover {
+    background: white;    
+}
+
+.form-field {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 10px;
+    background: rgb(255, 255, 255, 0.2);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
