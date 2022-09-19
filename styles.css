@@ -26,6 +26,7 @@ body {
     flex-direction: row;
     gap: 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .flex-c {
