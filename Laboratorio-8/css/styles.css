@@ -188,6 +188,11 @@ pre {
         padding-top: 45px;
     }
 
+    .result-text {
+        font-size: 1.6rem;
+        font-weight: 600; 
+     }
+
     #string {
         margin-top: 4px;
         padding: 12px 80px 12px 20px;
@@ -202,23 +207,38 @@ pre {
 }
 
 @media (max-width:412px) {
+
+    h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        transform: scaleX(1.05);
+        margin-top: 15px;
+        margin-bottom: 52px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.8rem; 
+    }
+
     .form-container {
         background-color: #023361;
         border-radius: 10px;
         color: #fff;
         height: 380px;
-        width: 380px;
+        width: 345px;
     }
 
     .result-container {
+        text-align: center;
         height: 250px;
-        width: 380px;
+        width: 345px;
         padding-top: 45px;
     }
 
     #string {
         margin-top: 4px;
-        padding: 12px 60px 12px 20px;
+        padding: 12px 40px 12px 20px;
         font-size: 1rem;
         font-weight: 900;
         border: transparent;
