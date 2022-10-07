@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio #8 by Oliver Quiel</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1386d710be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container flex ai-c fd-c">
+        <div class="github-container flex jc-fe">
+            <a href="https://github.com/2022-SEMII-DESIV-G2/quiel-oliver/tree/master/Laboratorio-8" target="_blank">
+                <span class="flex">
+                    <i class="fa-brands fa-github fa-fw as-c"></i>
+                    <span>github.com</span>
+                </span>
+            </a>
+        </div>
+        <div class="form-main-container flex jc-c">
+            <div>
+                <div class="form-container flex fd-c jc-c ai-c">                
+                    <form action="" onsubmit="return false">
+                        <h1>Contador de letras</h1>
+                        <p>
+                            <label for="">Cadena de texto</label>
+                        </p>
+                        <input id="string" type="text">
+                        <div class="btns-container flex jc-sb">
+                            <button class="btn-clr visibility-h" type="reset">Limpiar</button>
+                            <button class="btn-cal" type="submit">Calcular</button>
+                        </div>                    
+                    </form>
+                </div>
+                <div class="result-container">
+                    <h2 class="visibility-h">Letras</h2>
+                    <pre class="result-text"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
